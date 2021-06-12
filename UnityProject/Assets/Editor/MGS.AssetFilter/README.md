@@ -9,12 +9,10 @@ Unity plugin for asset name specification filter.
 - .Net Framework 3.5 or above.
 
 ## Demand
-
 - Define the specification of asset name.
 - Check the name of assets under the target directory, filter and display the assets those name is mismatch the define specification.
 
 ## Usage
-
 1. Find the menu item "Tool/Asset Filter" in Unity editor menu bar and click it or press key combination Alt+F to open the "Asset Filter" editor window.
 2. Click the "Browse" button to select the "Target Directory".
 3. Click the "New" button to create the "Pattern Settings", select and config it in Unity Inspector. 
@@ -22,13 +20,11 @@ Unity plugin for asset name specification filter.
 5. The filter assets will be display in the "Mismatch Assets" area, you can click a asset to focus it in the Unity Project.
 
 ## Pattern
-
 - Use regular expressions to define the AssetPattern.
 
-## Preview
-- Asset Filter Editor
-
-![Asset Filter Editor](./Attachment/images/AssetFilterEditor.gif)
+## Source
+- https://github.com/mogoson/MGS.AssetFilter.
 
 ------
+
 Copyright © 2021 Mogoson.	mogoson@outlook.com
