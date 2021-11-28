@@ -36,7 +36,7 @@ namespace MGS.AssetFilter
         private const string TARGET_DIRECTORY_KEY = "AssetFilterTargetDirectory";
         private string targetDirectory = "Assets";
 
-        private const string SETTINGS_PATH = "Assets/MGS.Packages/AssetFilter/Settings/AssetFilterSettings.asset";
+        private const string SETTINGS_PATH = "Assets/MGS.Packages/AssetFilter/Editor/AssetFilterSettings.asset";
         private AssetFilterSettings patternSettings;
 
         private List<string> filterAssets = new List<string>();
