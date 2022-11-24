@@ -25,10 +25,5 @@ Unity plugin for asset name specification filter.
 
 - Use regular expressions to define the AssetPattern.
 
-## Preview
-- Asset Filter Editor
-
-![Asset Filter Editor](./Attachment/images/AssetFilterEditor.gif)
-
 ------
 Copyright © 2021 Mogoson.	mogoson@outlook.com
