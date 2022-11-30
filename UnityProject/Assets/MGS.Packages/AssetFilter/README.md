@@ -8,6 +8,10 @@ Unity plugin for asset name specification filter.
 - Unity 5.0 or above.
 - .Net Framework 3.5 or above.
 
+## Version
+
+- 1.0.0
+
 ## Demand
 - Define the specification of asset name.
 - Check the name of assets under the target directory, filter and display the assets those name is mismatch the define specification.
