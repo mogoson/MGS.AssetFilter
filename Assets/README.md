@@ -26,9 +26,6 @@ Unity plugin for asset name specification filter.
 ## Pattern
 - Use regular expressions to define the AssetPattern.
 
-## Source
-- https://github.com/mogoson/MGS.AssetFilter.
-
 ------
 
 Copyright © 2021 Mogoson.	mogoson@outlook.com
