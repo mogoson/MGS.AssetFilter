@@ -36,7 +36,7 @@ namespace MGS.AssetFilter
         private const string TARGET_DIRECTORY_KEY = "AssetFilterTargetDirectory";
         private string targetDirectory = "Assets";
 
-        private const string SETTINGS_PATH = "Assets/MGS.Packages/AssetFilter/Editor/AssetFilterSettings.asset";
+        private const string SETTINGS_PATH = "Assets/Editor/AssetFilter/AssetFilterSettings.asset";
         private AssetFilterSettings patternSettings;
 
         private List<string> filterAssets = new List<string>();
@@ -221,6 +221,12 @@ namespace MGS.AssetFilter
         private void CreateNewSettings()
         {
             ClearEditorCache();
+
+            var dir = Path.GetDirectoryName(SETTINGS_PATH);
+            if (!Directory.Exists(dir))
+            {
+                Directory.CreateDirectory(dir);
+            }
             patternSettings = CreateInstance<AssetFilterSettings>();
             AssetDatabase.CreateAsset(patternSettings, SETTINGS_PATH);
             Selection.activeObject = patternSettings;
