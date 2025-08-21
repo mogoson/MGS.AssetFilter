@@ -5,12 +5,7 @@ Unity plugin for asset name specification filter.
 
 ## Environment
 
-- Unity 5.0 or above.
-- .Net Framework 3.5 or above.
-
-## Version
-
-- 1.0.0
+- Unity 2021.3 or above.
 
 ## Demand
 - Define the specification of asset name.
@@ -28,4 +23,4 @@ Unity plugin for asset name specification filter.
 
 ------
 
-Copyright © 2021 Mogoson.	mogoson@outlook.com
+Copyright © 2025 Mogoson.	mogoson@outlook.com
