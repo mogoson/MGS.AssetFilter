@@ -3,7 +3,7 @@
 ## Summary
 Unity plugin for asset name specification filter.
 
-## Demand
+## Ability
 - Define the specification of asset name.
 - Check the name of assets under the target directory, filter and display the assets those name is mismatch the define specification.
 
