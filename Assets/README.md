@@ -1,4 +1,6 @@
-﻿# MGS.AssetFilter
+[TOC]
+
+# MGS.AssetFilter
 
 ## Summary
 Unity plugin for asset name specification filter.
@@ -6,6 +8,14 @@ Unity plugin for asset name specification filter.
 ## Ability
 - Define the specification of asset name.
 - Check the name of assets under the target directory, filter and display the assets those name is mismatch the define specification.
+
+## Install
+
+- Unity --> Window --> Package Manager --> "+" --> Add package from git URL...
+
+  ```text
+  https://github.com/mogoson/MGS.AssetFilter.git?path=/Assets
+  ```
 
 ## Usage
 1. Find the menu item "Tool/Asset Filter" in Unity editor menu bar and click it or press key combination Alt+F to open the "Asset Filter" editor window.
@@ -17,6 +27,6 @@ Unity plugin for asset name specification filter.
 ## Pattern
 - Use regular expressions to define the AssetPattern.
 
-------
+---
 
 Copyright © 2025 Mogoson.	mogoson@outlook.com

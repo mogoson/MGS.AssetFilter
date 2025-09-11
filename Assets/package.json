@@ -1,7 +1,16 @@
 {
-    "description": "Unity plugin for asset name specification filter.",
-    "displayName": "Asset Filter",
     "name": "com.mgs.assetfilter",
+    "version": "1.0.0",
+    "displayName": "Asset Filter",
+    "description": "Unity plugin for asset name specification filter.",
     "unity": "2021.3",
-    "version": "1.0.0"
+    "keywords": [
+        "asset",
+        "filter"
+    ],
+    "author": {
+        "name": "Mogoson",
+        "email": "mogoson@outlook.com",
+        "url": "https://github.com/mogoson"
+    }
 }
