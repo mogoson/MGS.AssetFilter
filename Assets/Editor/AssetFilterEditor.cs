@@ -20,7 +20,7 @@ using System.Threading;
 using UnityEditor;
 using UnityEngine;
 
-namespace MGS.AssetFilter
+namespace MGS.AssetFilter.Editors
 {
     public class AssetFilterEditor : EditorWindow
     {

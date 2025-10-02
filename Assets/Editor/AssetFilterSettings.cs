@@ -14,7 +14,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace MGS.AssetFilter
+namespace MGS.AssetFilter.Editors
 {
     [Serializable]
     public struct AssetPattern
